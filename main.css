@@ -377,3 +377,129 @@ nav {
     padding-top: 80px;
     gap: 30px;
 }
+
+.stars {
+    display: flex;
+    gap: 10px;
+}
+
+.review__boxes {
+    display: flex;
+    gap: 30px;
+    padding-top: 80px;
+}
+
+.review__box {
+    padding: 50px 50px ;
+    background: #141414;
+    border: 1px solid #262626;
+    border-radius: 16px;
+}
+
+.star__flex {
+    background: #1A1A1A;
+    padding: 10px;
+    border-radius: 100px;
+    border: 1px solid #262626;
+}
+
+.review__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.review__txt {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding: 14px 0 40px;
+    max-width: 412px;
+    width: 100%;
+}
+
+.review__flex {
+    display: flex;
+    gap: 12px;
+}
+
+.review__flex-sub {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-span-first {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.review-span-second {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: #999;
+}
+
+.quest {
+    padding-top: 10px;
+}
+
+.quest__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+.quest__txt {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.6%;
+    max-width: 412px;
+    width: 100%;
+    color: #999;
+    padding: 30px 0;
+}
+
+.quest__btn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 131%;
+    letter-spacing: -0.6%;
+    color: #fff;
+    background: #1A1A1A;
+    padding: 18px 24px;
+    border-radius: 16px;
+    border: 1px solid #262626;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.quest__btn:hover {
+    background: #703BF7;
+}
+
+.quest__boxes {
+    display: flex;
+    gap: 30px;
+
+    padding-top: 80px;
+}
+
+.quest__box {
+      padding: 50px;
+    background: #141414;
+    border: 1px solid #262626;
+    border-radius: 16px;
+}
