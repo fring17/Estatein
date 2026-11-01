@@ -390,7 +390,7 @@ nav {
 }
 
 .review__box {
-    padding: 50px 50px ;
+    padding: 50px 50px;
     background: #141414;
     border: 1px solid #262626;
     border-radius: 16px;
@@ -493,12 +493,12 @@ nav {
 .quest__boxes {
     display: flex;
     gap: 30px;
-
     padding-top: 80px;
+    padding-bottom: 400px;
 }
 
 .quest__box {
-      padding: 50px;
+    padding: 50px;
     background: #141414;
     border: 1px solid #262626;
     border-radius: 16px;
