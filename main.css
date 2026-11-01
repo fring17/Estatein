@@ -494,7 +494,6 @@ nav {
     display: flex;
     gap: 30px;
     padding-top: 80px;
-    padding-bottom: 400px;
 }
 
 .quest__box {
@@ -503,3 +502,58 @@ nav {
     border: 1px solid #262626;
     border-radius: 16px;
 }
+
+.dream {
+    padding-top: 100px;
+}
+
+.dream__main {
+    display: flex;
+    align-items: center;
+    gap: 250px;
+}
+
+.dream__button {
+    text-align: center;
+}
+
+
+.dream__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #fff;
+    padding-bottom: 14px;
+}
+
+.dream__txt {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #999;
+    max-width: 1154px;
+    width: 100%;
+}
+
+.dream__btn {
+    font-family: Urbanist;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #fff;
+    background: #1A1A1A;
+    padding: 18px 24px;
+    border-radius: 16px;
+    border: 1px solid #262626;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.dream__btn:hover {
+    background: #703BF7;
+}
+
